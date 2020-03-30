@@ -53,7 +53,7 @@ async function loadConfig() {
 }
 
 function formatScope(scope) {
-  return scope ? `(${scope})` : ''
+  return scope ? `(${scope}):` : ''
 }
 
 function formatHead({ type, scope, subject }) {
